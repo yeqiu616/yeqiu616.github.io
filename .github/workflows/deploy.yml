@@ -16,16 +16,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 确保没有 submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.120.4'
           extended: true
 
-      - name: Build site
+      - name: Build with Hugo
         run: hugo --minify
+
+      - name: Ensure .nojekyll exists
+        run: touch public/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
