@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on test</title>
+    <link>http://localhost:1313/tags/r/</link>
+    <description>Recent content in R on test</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇博客</title>
+      <link>http://localhost:1313/firstblog/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firstblog/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;title: &amp;ldquo;ISTJ+RCI：突然的想法-称之为灵感&amp;rdquo;&#xA;date: 2023-11-14&#xA;draft: false&#xA;tags: [&amp;ldquo;ISTJ&amp;rdquo;, &amp;ldquo;个人成长&amp;rdquo;, &amp;ldquo;AI思考&amp;rdquo;, &amp;ldquo;心理学&amp;rdquo;]&lt;/p&gt;&#xA;&lt;h2 id=&#34;categories-随笔&#34;&gt;categories: [&amp;ldquo;随笔&amp;rdquo;]&lt;/h2&gt;&#xA;&lt;h2 id=&#34;ai-对我的好处&#34;&gt;AI 对我的好处&lt;/h2&gt;&#xA;&lt;p&gt;我是一个极为优柔寡断、选择困难的人，经常一个选择就耗费了我做事的大部分精力，让我痛苦不堪。但是我的执行力倒不至于太差，很喜欢按规矩办事，缺乏想象力，这正是我的局限。&lt;/p&gt;&#xA;&lt;p&gt;又但是呢，可以通过 AI 对话，让 AI 给我一个具体可执行的计划，然后我只需要按照此计划一步步执行即可，不能想太多。&lt;/p&gt;&#xA;&lt;h2 id=&#34;当前存在的问题&#34;&gt;当前存在的问题&lt;/h2&gt;&#xA;&lt;p&gt;目前存在的一个问题就是，对于一个问题，重复问 AI 就会得到不同的结果，然后又会导致我在这些结果之间的选择的犹豫，属于是，把我犹豫的本领发挥的淋漓尽致。&lt;/p&gt;&#xA;&lt;h2 id=&#34;新的发现与启示&#34;&gt;新的发现与启示&lt;/h2&gt;&#xA;&lt;p&gt;针对这一现象（为什么已经得出了答案还要进行再一次的对话），我认为还是响应了那句话——&lt;strong&gt;so you do know the difference!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;实际上对于大部分选择，我内心是有一个明确的或者是倾向，但是我不愿意承认或者说本性就是犹豫情结，因此在得到一个我不满意的回复后，我又询问，直到找到我真正想要的。&lt;/p&gt;&#xA;&lt;p&gt;就像今天决定在想学习的爱好中选一个时，我第一次得出了&amp;quot;冥想&amp;quot;的回复，但是我还是问了第二遍并且通过第三遍验证，因为我确实更想练习&amp;quot;打字&amp;quot;。这对我来说可能也是一个好事，因为也帮助我明确了我想要的到底是什么。&lt;/p&gt;&#xA;&lt;h2 id=&#34;反思与展望&#34;&gt;反思与展望&lt;/h2&gt;&#xA;&lt;p&gt;这种看法对我来说可能是一种启示，同时我觉得对于我的心态能有很大的提升。我是不是该把 &lt;strong&gt;&amp;ldquo;看事情要辩证的看&amp;rdquo;&lt;/strong&gt; 这句话贴在电脑屏幕上用来时刻提醒我，不过呢能贴在心里当然是最好，因为想要贴在屏幕上的话说实话有点多哈哈哈&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
