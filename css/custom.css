@@ -1,0 +1,63 @@
+/* 首页核心文案区背景图 */
+.home-info {
+  background: url("https://yeqiu616.github.io/assets/imges/bg-home.jpg") no-repeat center center;
+  background-size: cover; /* 自适应覆盖整个区域 */
+  background-blend-mode: overlay; /* 图片和文字融合（避免文字看不清） */
+  padding: 4rem 2rem !important; /* 增加内边距，让文案更舒展 */
+  border-radius: 12px; /* 圆角，更美观 */
+  color: #fff !important; /* 文字改为白色，适配背景图 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: relative;
+}
+
+/* 背景图遮罩（关键：避免文字和背景冲突） */
+.home-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* 黑色半透明遮罩，可调整透明度（0.1-0.8） */
+  border-radius: 12px;
+  z-index: 0;
+}
+
+/* 让文案显示在遮罩上层 */
+.home-info h1, .home-info p {
+  position: relative;
+  z-index: 1;
+}
+
+/* 深色模式下的适配（可选） */
+.dark .home-info {
+  background-blend-mode: darken;
+}
+.dark .home-info::before {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* 导航栏 hover 效果 */
+.nav-links a:hover {
+  color: #3182ce !important;
+  border-bottom: 2px solid #3182ce;
+}
+
+/* 文章卡片美化 */
+.post-entry {
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 代码块美化 */
+pre {
+  border-radius: 6px !important;
+  padding: 1rem !important;
+}
